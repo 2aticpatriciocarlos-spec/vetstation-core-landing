@@ -33,8 +33,17 @@
 
       <!-- ─── 1. HERO ─── -->
       <section class="hero" id="hero">
+        <div class="hero__bg" aria-hidden="true">
+          <div class="hero__bg-grid"></div>
+          <div class="hero__bg-blob hero__bg-blob--1"></div>
+          <div class="hero__bg-blob hero__bg-blob--2"></div>
+        </div>
         <div class="container hero__inner">
           <div class="hero__content">
+            <div class="hero__badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span>Clínica veterinaria · Software vertical</span>
+            </div>
             <p class="hero__eyebrow">VetStation Core</p>
             <h1 class="hero__headline">
               Más control para tu clínica veterinaria.<br />
@@ -74,7 +83,9 @@
                 <div class="mockup__widget">
                   <div class="w-label">Paciente — Luna</div>
                   <div class="w-patient-info">
-                    <div class="w-avatar">🐕</div>
+                    <div class="w-avatar">
+                      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 1.844-2.5"/><path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.96-1.45-1.844-2.5"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75z"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444c0-1.061-.162-2.2-.493-3.309m-9.243-6.082A8.801 8.801 0 0 1 12 5c.78 0 1.5.108 2.161.306"/></svg>
+                    </div>
                     <div>
                       <div class="w-name">Luna García</div>
                       <div class="w-breed">Golden Retriever · 4 años</div>
@@ -99,19 +110,19 @@
           </div>
           <div class="pain-grid">
             <div class="pain-card">
-              <div class="pain-icon">📅</div>
+              <div class="pain-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg></div>
               <p>Citas que no conectan bien con la consulta</p>
             </div>
             <div class="pain-card">
-              <div class="pain-icon">📝</div>
+              <div class="pain-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><line x1="10" x2="8" y1="9" y2="9"/></svg></div>
               <p>Casos que dependen de memoria, notas sueltas o seguimiento manual</p>
             </div>
             <div class="pain-card">
-              <div class="pain-icon">⚙️</div>
+              <div class="pain-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg></div>
               <p>Equipo con más fricción operativa de la necesaria</p>
             </div>
             <div class="pain-card">
-              <div class="pain-icon">🌀</div>
+              <div class="pain-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg></div>
               <p>Sensación de desorden incluso cuando la clínica ya funciona bien</p>
             </div>
           </div>
@@ -130,27 +141,27 @@
           </div>
           <div class="pillars-grid">
             <div class="pillar-card">
-              <div class="pillar-icon">🐾</div>
+              <div class="pillar-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="8" r="2"/><circle cx="4" cy="16" r="2"/><path d="M12 14c-3.5 0-6 1.5-6 3.5v.5h12v-.5c0-2-2.5-3.5-6-3.5z"/></svg></div>
               <h3>Pacientes</h3>
               <p>Ficha clara, contexto rápido e historial accesible para trabajar con continuidad.</p>
             </div>
             <div class="pillar-card">
-              <div class="pillar-icon">📆</div>
+              <div class="pillar-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/></svg></div>
               <h3>Citas</h3>
               <p>Agenda operativa para entender el día, organizar mejor el flujo y reducir fricción.</p>
             </div>
             <div class="pillar-card">
-              <div class="pillar-icon">🩺</div>
+              <div class="pillar-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></div>
               <h3>Consultas</h3>
               <p>Experiencia clínica más clara y profesional, conectada con lo que pasa antes y después.</p>
             </div>
             <div class="pillar-card">
-              <div class="pillar-icon">🔔</div>
+              <div class="pillar-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div>
               <h3>Seguimiento</h3>
               <p>Alertas y continuidad visibles para que ningún caso relevante quede suelto.</p>
             </div>
             <div class="pillar-card">
-              <div class="pillar-icon">📊</div>
+              <div class="pillar-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg></div>
               <h3>Dashboard operativo</h3>
               <p>Visión del día con foco real en actividad, no en métricas decorativas.</p>
             </div>
@@ -168,21 +179,21 @@
           <div class="flow-steps">
             <div class="flow-step">
               <div class="step-number">01</div>
-              <div class="step-icon">📆</div>
+              <div class="step-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/></svg></div>
               <h3>Agenda</h3>
               <p>Organiza el día, confirma citas y prepara la atención sin perder contexto.</p>
             </div>
             <div class="flow-arrow">→</div>
             <div class="flow-step">
               <div class="step-number">02</div>
-              <div class="step-icon">🩺</div>
+              <div class="step-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></div>
               <h3>Consulta</h3>
               <p>Abre la atención clínica con el historial y el contexto del paciente a mano.</p>
             </div>
             <div class="flow-arrow">→</div>
             <div class="flow-step">
               <div class="step-number">03</div>
-              <div class="step-icon">🔔</div>
+              <div class="step-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div>
               <h3>Seguimiento</h3>
               <p>Deja visible lo que requiere continuidad para que ningún caso relevante quede suelto.</p>
             </div>
@@ -227,22 +238,22 @@
           </div>
           <div class="diff-grid">
             <div class="diff-card">
-              <div class="diff-icon">🎯</div>
+              <div class="diff-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
               <h3>Más claridad operativa</h3>
               <p>Menos ruido, más utilidad diaria. Lo que importa, visible de inmediato.</p>
             </div>
             <div class="diff-card">
-              <div class="diff-icon">✨</div>
+              <div class="diff-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.7a1 1 0 0 0 .6.6L20.1 11l-5.6 1.9a1 1 0 0 0-.6.6L12 19.1l-1.9-5.6a1 1 0 0 0-.6-.6L3.9 11l5.6-1.9a1 1 0 0 0 .6-.6L12 3z"/></svg></div>
               <h3>Experiencia más moderna</h3>
               <p>Interfaz cuidada, limpia y profesional. No el típico software veterinario de hace 10 años.</p>
             </div>
             <div class="diff-card">
-              <div class="diff-icon">🚀</div>
+              <div class="diff-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></div>
               <h3>Entrada comercial más simple</h3>
               <p>Propuesta entendible para equipos no técnicos. Demo corta y comprensible.</p>
             </div>
             <div class="diff-card">
-              <div class="diff-icon">📈</div>
+              <div class="diff-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></div>
               <h3>Escalable por capas</h3>
               <p>Empieza por el core. Amplía solo cuando tenga sentido y la clínica esté lista.</p>
             </div>
@@ -334,6 +345,20 @@
           <div class="cta__actions">
             <a href="mailto:demo@vetstation.io?subject=Solicitud%20de%20demo%20VetStation%20Core" class="btn btn--primary btn--large">Solicitar demo</a>
             <a href="mailto:demo@vetstation.io?subject=Quiero%20saber%20si%20VetStation%20Core%20encaja%20en%20mi%20cl%C3%ADnica" class="btn btn--outline btn--large">Quiero ver si encaja con mi clínica</a>
+          </div>
+          <div class="cta__trust">
+            <span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Sin compromiso
+            </span>
+            <span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Demo de 30 minutos
+            </span>
+            <span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Adaptada a tu clínica
+            </span>
           </div>
         </div>
       </section>

@@ -11,16 +11,29 @@ const observer = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.12 }
+  { threshold: 0.10 }
 );
 
-document.querySelectorAll(
+// Group by parent to stagger siblings
+const animEls = document.querySelectorAll(
   '.pain-card, .pillar-card, .flow-step, .diff-card, .includes-list li, .growth-tier'
-).forEach((el) => {
-  el.style.opacity = '0';
-  el.style.transform = 'translateY(20px)';
-  el.style.transition = 'opacity .45s ease, transform .45s ease';
-  observer.observe(el);
+);
+
+// Build sibling groups for stagger
+const parentMap = new Map();
+animEls.forEach((el) => {
+  const parent = el.parentElement;
+  if (!parentMap.has(parent)) parentMap.set(parent, []);
+  parentMap.get(parent).push(el);
+});
+
+parentMap.forEach((siblings) => {
+  siblings.forEach((el, i) => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(18px)';
+    el.style.transition = `opacity .4s ${i * 0.07}s ease, transform .4s ${i * 0.07}s ease`;
+    observer.observe(el);
+  });
 });
 
 // visible class triggers the animation
@@ -38,8 +51,10 @@ const nav = document.querySelector('.nav');
 window.addEventListener('scroll', () => {
   if (window.scrollY > 40) {
     nav.style.boxShadow = '0 2px 16px rgba(0,0,0,.08)';
+    nav.style.background = 'rgba(250,250,250,.97)';
   } else {
     nav.style.boxShadow = 'none';
+    nav.style.background = '';
   }
 }, { passive: true });
 
