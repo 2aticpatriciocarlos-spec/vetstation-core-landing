@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="VetStation Core centraliza la operativa diaria de tu clínica veterinaria. Pacientes, citas, consultas y seguimiento en un solo lugar." />
-    <meta property="og:title" content="VetStation Core — Software simple para clínicas veterinarias" />
+    <meta property="og:title" content="VetStation Core — El core operativo de tu clínica veterinaria" />
     <meta property="og:description" content="VetStation Core centraliza la operativa diaria de tu clínica veterinaria. Pacientes, citas, consultas y seguimiento en un solo lugar." />
     <meta property="og:type" content="website" />
-    <title>VetStation Core — Software simple para clínicas veterinarias</title>
+    <title>VetStation Core — El core operativo de tu clínica veterinaria</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232563eb'/><text x='50' y='72' font-family='system-ui,sans-serif' font-size='54' font-weight='800' fill='white' text-anchor='middle'>VS</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -54,7 +54,7 @@
               <span class="accent">Menos caos</span> en citas, consultas y seguimiento.
             </h1>
             <p class="hero__sub">
-              Pacientes, citas, consultas y seguimiento en un solo sitio. Sin complicarte.
+              VetStation Core reúne la operativa diaria de tu clínica en una experiencia moderna, clara y profesional para que el equipo trabaje con más orden, mejor continuidad clínica y menos fricción administrativa.
             </p>
             <div class="hero__actions">
               <a href="#cta" class="btn btn--primary">Solicitar demo</a>
@@ -138,7 +138,7 @@
         <div class="container">
           <div class="section__header">
             <p class="section__eyebrow">Propuesta de valor</p>
-            <h2>Lo esencial para llevar tu clínica, sin complicarlo.</h2>
+            <h2>El core operativo de la clínica, bien resuelto.</h2>
             <p class="section__sub">
               VetStation Core está pensado para clínicas que quieren más control operativo sin adoptar desde el día uno una plataforma demasiado pesada. La propuesta se centra en lo que más impacto tiene en el trabajo diario.
             </p>
@@ -347,15 +347,9 @@
             Te enseñamos VetStation Core con un recorrido práctico sobre pacientes, citas, consultas y seguimiento.
           </p>
           <div class="cta__actions">
-            <a href="mailto:equipovetstation@gmail.com?subject=Solicitud%20de%20demo%20VetStation%20Core" class="btn btn--primary btn--large">Solicitar demo</a>
-            <a href="mailto:equipovetstation@gmail.com?subject=Quiero%20saber%20si%20VetStation%20Core%20encaja%20en%20mi%20cl%C3%ADnica" class="btn btn--outline btn--large">¿Encaja en mi clínica?</a>
+            <a href="mailto:demo@vetstation.io?subject=Solicitud%20de%20demo%20VetStation%20Core" class="btn btn--primary btn--large">Solicitar demo</a>
+            <a href="mailto:demo@vetstation.io?subject=Quiero%20saber%20si%20VetStation%20Core%20encaja%20en%20mi%20cl%C3%ADnica" class="btn btn--outline btn--large">¿Encaja en mi clínica?</a>
           </div>
-          <p class="cta__contact" style="margin-top:18px;font-size:15px;line-height:1.7;text-align:center;">
-            O si prefieres, escríbenos directamente:
-            <a href="https://wa.me/34633874242?text=Hola%2C%20me%20interesa%20VetStation%20Core" target="_blank" rel="noopener"><strong>WhatsApp:</strong> +34 633 874 242</a>
-            &nbsp;·&nbsp;
-            <a href="mailto:equipovetstation@gmail.com"><strong>Email:</strong> equipovetstation@gmail.com</a>
-          </p>
           <div class="cta__trust">
             <span>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
@@ -382,13 +376,7 @@
           <span class="logo-mark">VS</span>
           <span class="logo-text">VetStation <strong>Core</strong></span>
         </div>
-        <p class="footer__claim">Software simple para clínicas veterinarias.</p>
-        <p class="footer__contact" style="margin:6px 0 4px;font-size:14px;line-height:1.6;">
-          Contacto directo:
-          <a href="https://wa.me/34633874242?text=Hola%2C%20me%20interesa%20VetStation%20Core" target="_blank" rel="noopener"><strong>WhatsApp:</strong> +34 633 874 242</a>
-          &nbsp;·&nbsp;
-          <a href="mailto:equipovetstation@gmail.com"><strong>Email:</strong> equipovetstation@gmail.com</a>
-        </p>
+        <p class="footer__claim">El core operativo de la clínica veterinaria, bien resuelto.</p>
         <p class="footer__copy">© 2026 VetStation. Todos los derechos reservados.</p>
       </div>
     </footer>
